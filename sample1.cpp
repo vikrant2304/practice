@@ -4,18 +4,18 @@ int main()
 {
     int t;
     cin>>t;
-    while(t--)
+    for(int i=0;i<t;i++)
     {
         long long int n;
         cin>>n;
         cout<<n<<endl;
         if(n&(n-1)==0&&n!=0)
         {
-            cout<<"YES"<<endl;;
+            cout<<"power of 2"<<endl;;
         }
         else
         {
-            cout<<"NO"<<endl;
+            cout<<"not a power of 2"<<endl;
         }
     }
 	return 0;
