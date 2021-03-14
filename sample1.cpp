@@ -8,13 +8,14 @@ int main()
     {
         long long int n;
         cin>>n;
-        cout<<n<<endl;
-        if(n&(n-1)==0&&n!=0)
-        {
+        cout<<n<<"\n";
+
+        if(n&(n-1)==0&&n!=0){
+
             cout<<"power of 2"<<endl;;
+            break;
         }
-        else
-        {
+        else{
             cout<<"not a power of 2"<<endl;
         }
     }
